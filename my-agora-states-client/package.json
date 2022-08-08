@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
     "test-build": "npm run test && npm run build"
