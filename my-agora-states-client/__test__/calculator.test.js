@@ -1,5 +1,5 @@
-import { Add } from "../src/components/calculator";
+const add = require("./Calculator");
 
 it("add correctly", () => {
-  expect(Add(3, 5)).toBe(15);
+  expect(add(3, 5)).toBe(8);
 });
